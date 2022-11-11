@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Button from "../components/Button";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1>Spotify top artists</h1>
+        <Button />
       </main>
     </div>
   );
